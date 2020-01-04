@@ -24,5 +24,7 @@ Posteriormente, será necesario elaborar un diagrama conceptual con las entidade
 
 # ENLACES DE INTERÉS PARA LA REALIZACIÓN DE LA PRÁCTICA
 [1].Datos abiertos del Consorcio Regional de Transportede Madrid(CRTM), http://datos.crtm.es/
+
 [2].Google Transit Feed Specification (GTFS), https://developers.google.com/transit/gtfs/reference?hl=es-419
+
 [3].Información  de  los medios  de  transporte  en  el  CRTM, http://www.crtm.es/tu-transporte-publico.aspx

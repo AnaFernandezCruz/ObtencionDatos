@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rdf:RDF
+   xmlns:dominioMedioTransporte="https://www.meinventoesto.com/"
+   xmlns:ns2="http://com.vortic3.MANTO#"
+   xmlns:ns3="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/1999/02/22-rdfs-syntax-ns#">
+   
+   <rdf:Description rdf:about="https://www.meinventoesto.com/medio_transporte/Metro.html">
+      <rdf:type rdf:resource="https://www.meinventoesto.com/class#TipoMedioTransporte" />
+	  <rdfs:label>Metro</rdfs:label>
+   </rdf:Description>
+   
+   
+   <rdf:Description rdf:about="https://www.meinventoesto.com/lineas/metro/01.html">
+      <rdf:type rdf:resource="https://www.meinventoesto.com/class#Linea" />
+	  <rdfs:label>Linea 1</rdfs:label>
+	  <dominioMedioTransporte:medioTransporteAsociado rdf:resource="https://www.meinventoesto.com/medio_transporte/Metro.html" />
+   </rdf:Description>
+   
+   
+   <rdf:Description rdf:about="https://www.meinventoesto.com/lineas/metro/02.html">
+      <rdf:type rdf:resource="https://www.meinventoesto.com/class#Linea" />
+	  <rdfs:label>Linea 2</rdfs:label>
+	  <dominioMedioTransporte:medioTransporteAsociado rdf:resource="https://www.meinventoesto.com/medio_transporte/Metro.html" />
+   </rdf:Description>
+   
+   <rdf:Description rdf:about="https://www.meinventoesto.com/lineas/metro/06.html">
+      <rdf:type rdf:resource="https://www.meinventoesto.com/class#Linea" />
+	  <rdfs:label>Linea 2</rdfs:label>
+	  <dominioMedioTransporte:medioTransporteAsociado rdf:resource="https://www.meinventoesto.com/medio_transporte/Metro.html" />
+   </rdf:Description>
+   
+   
+  <rdf:Description rdf:about="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/CuatroCaminos.html">
+    <rdf:type rdf:resource="https://www.meinventoesto.com/class#Estacion" />
+    <ns2:hasRamp>False</ns2:hasRamp>
+    <ns2:ofLine rdf:resource="https://www.meinventoesto.com/lineas/metro/02.html"/>
+	<ns2:ofLine rdf:resource="https://www.meinventoesto.com/lineas/metro/06.html"/>
+	<ns2:ofLine rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html"/>	
+    <ns3:name>Manuel Becerra</ns3:name>
+    <ns2:hasLift>False</ns2:hasLift>	
+	    <dominioMedioTransporte:enlaceAnterior>
+			<rdf:Description rdf:about="https://www.meinventoesto.com/medio_transporte/enlaces#01">			
+					<dominioMedioTransporte:estacionEnlace rdf:resource="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/Albarado.html"/>
+					<dominioMedioTransporte:lineaEnlace rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html" />			
+			</rdf:Description>
+		</dominioMedioTransporte:enlaceAnterior>
+	<dominioMedioTransporte:enlaceSiguiente>
+		<rdf:Description rdf:about="https://www.meinventoesto.com/medio_transporte/enlaces#02">		
+			<dominioMedioTransporte:estacionEnlace rdf:resource="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/RiosRosas.html"/>
+			<dominioMedioTransporte:lineaEnlace rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html" />
+		</rdf:Description>	
+    </dominioMedioTransporte:enlaceSiguiente>	
+  </rdf:Description>
+  
+  
+  <rdf:Description rdf:about="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/Albarado.html">
+    <rdf:type rdf:resource="https://www.meinventoesto.com/class#Estacion" />
+    <ns2:hasRamp>False</ns2:hasRamp>
+    <ns2:ofLine rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html"/>
+    <ns3:name>Manuel Becerra</ns3:name>
+    <ns2:hasLift>False</ns2:hasLift>	
+	<dominioMedioTransporte:enlaceSiguiente>
+	    <rdf:Description rdf:about="https://www.meinventoesto.com/medio_transporte/enlaces#03">	
+				<dominioMedioTransporte:estacionEnlace rdf:resource="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/CuatroCaminos.html"/>
+				<dominioMedioTransporte:lineaEnlace rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html" />
+		</rdf:Description>		
+    </dominioMedioTransporte:enlaceSiguiente>
+	
+  </rdf:Description>
+  
+  
+   <rdf:Description rdf:about="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/RiosRosas.html">
+    <rdf:type rdf:resource="https://www.meinventoesto.com/class#Estacion" />
+    <ns2:hasRamp>False</ns2:hasRamp>
+    <ns2:ofLine rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html"/>
+    <ns3:name>Manuel Becerra</ns3:name>
+    <ns2:hasLift>False</ns2:hasLift>	
+	<dominioMedioTransporte:enlaceAnterior>
+	     <rdf:Description rdf:about="https://www.meinventoesto.com/medio_transporte/enlaces#04">	
+			<dominioMedioTransporte:estacionEnlace rdf:resource="https://www.metromadrid.es/es/viaja_en_metro/red_de_metro/estaciones/CuatroCaminos.html"/>
+			<dominioMedioTransporte:lineaEnlace rdf:resource="https://www.meinventoesto.com/lineas/metro/01.html" />
+		  </rdf:Description>		
+    </dominioMedioTransporte:enlaceAnterior>	
+  </rdf:Description>
+  
+</rdf:RDF>   
+  

@@ -53,7 +53,7 @@ class BuscaestacionesmetroSpider(scrapy.Spider):
 
 
     def parse(self, response):
-        import pudb; pudb.set_trace()  
+        #import pudb; pudb.set_trace()  
         #print(response.xpath('//div[@class="listaBotones logosRectangulo unaCol"]'))
         elementosURLs = response.xpath('//div[@class="listaBotones logosRectangulo unaCol"]//a')
         #next_page = response.xpath('//div[@class="listaBotones logosRectangulo unaCol"]//a/@href').get()

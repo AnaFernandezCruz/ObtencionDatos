@@ -1,32 +1,4 @@
 linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
-6,laguna,0,4,/tu-transporte-publico/metro/estaciones/4_104.aspx
-6,carpetana,1,4,/tu-transporte-publico/metro/estaciones/4_105.aspx
-6,oporto,2,4,/tu-transporte-publico/metro/estaciones/4_96.aspx
-6,opañel,3,4,/tu-transporte-publico/metro/estaciones/4_107.aspx
-6,plaza elíptica,4,4,/tu-transporte-publico/metro/estaciones/4_108.aspx
-6,usera,5,4,/tu-transporte-publico/metro/estaciones/4_109.aspx
-6,legazpi,6,4,/tu-transporte-publico/metro/estaciones/4_43.aspx
-6,arganzuela - planetario,7,4,/tu-transporte-publico/metro/estaciones/4_259.aspx
-6,méndez álvaro,8,4,/tu-transporte-publico/metro/estaciones/4_111.aspx
-6,pacífico,9,4,/tu-transporte-publico/metro/estaciones/4_18.aspx
-6,conde de casal,10,4,/tu-transporte-publico/metro/estaciones/4_113.aspx
-6,sáinz de baranda,11,4,/tu-transporte-publico/metro/estaciones/4_114.aspx
-6,o'donnell,12,4,/tu-transporte-publico/metro/estaciones/4_115.aspx
-6,manuel becerra,13,4,/tu-transporte-publico/metro/estaciones/4_29.aspx
-6,diego de león,14,4,/tu-transporte-publico/metro/estaciones/4_63.aspx
-6,avenida de américa,15,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
-6,república argentina,16,4,/tu-transporte-publico/metro/estaciones/4_119.aspx
-6,nuevos ministerios,17,4,/tu-transporte-publico/metro/estaciones/4_120.aspx
-6,cuatro caminos,18,4,/tu-transporte-publico/metro/estaciones/4_6.aspx
-6,guzmán el bueno,19,4,/tu-transporte-publico/metro/estaciones/4_122.aspx
-6,vicente aleixandre,20,4,/tu-transporte-publico/metro/estaciones/4_123.aspx
-6,ciudad universitaria,21,4,/tu-transporte-publico/metro/estaciones/4_124.aspx
-6,moncloa,22,4,/tu-transporte-publico/metro/estaciones/4_53.aspx
-6,argüelles,23,4,/tu-transporte-publico/metro/estaciones/4_52.aspx
-6,príncipe pío,24,4,/tu-transporte-publico/metro/estaciones/4_127.aspx
-6,puerta del ángel,25,4,/tu-transporte-publico/metro/estaciones/4_128.aspx
-6,alto de extremadura,26,4,/tu-transporte-publico/metro/estaciones/4_129.aspx
-6,lucero,27,4,/tu-transporte-publico/metro/estaciones/4_130.aspx
 1,pinar de chamartín,0,4,/tu-transporte-publico/metro/estaciones/4_263.aspx
 1,bambú,1,4,/tu-transporte-publico/metro/estaciones/4_262.aspx
 1,chamartín,2,4,/tu-transporte-publico/metro/estaciones/4_261.aspx
@@ -60,6 +32,177 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 1,la gavia,30,4,/tu-transporte-publico/metro/estaciones/4_293.aspx
 1,las suertes,31,4,/tu-transporte-publico/metro/estaciones/4_294.aspx
 1,valdecarros,32,4,/tu-transporte-publico/metro/estaciones/4_295.aspx
+1,príncipe pío,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_61.aspx
+1,pirámides,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_57.aspx
+1,delicias,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_25.aspx
+1,méndez álvaro,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_46.aspx
+1,atocha,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+1,recoletos,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
+1,nuevos ministerios,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+1,chamartín,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+1,fuente de la mora,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_133.aspx
+1,valdebebas,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_144.aspx
+1,aeropuerto t4,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_142.aspx
+r,ópera,0,4,/tu-transporte-publico/metro/estaciones/4_36.aspx
+r,príncipe pío,1,4,/tu-transporte-publico/metro/estaciones/4_127.aspx
+7,hospital del henares,0,4,/tu-transporte-publico/metro/estaciones/4_296.aspx
+7,henares,1,4,/tu-transporte-publico/metro/estaciones/4_292.aspx
+7,jarama,2,4,/tu-transporte-publico/metro/estaciones/4_291.aspx
+7,san fernando,3,4,/tu-transporte-publico/metro/estaciones/4_290.aspx
+7,la rambla,4,4,/tu-transporte-publico/metro/estaciones/4_289.aspx
+7,coslada central,5,4,/tu-transporte-publico/metro/estaciones/4_288.aspx
+7,barrio del puerto,6,4,/tu-transporte-publico/metro/estaciones/4_287.aspx
+7,estadio metropolitano,7,4,/tu-transporte-publico/metro/estaciones/4_286.aspx
+7,las musas,8,4,/tu-transporte-publico/metro/estaciones/4_132.aspx
+7,san blas,9,4,/tu-transporte-publico/metro/estaciones/4_133.aspx
+7,simancas,10,4,/tu-transporte-publico/metro/estaciones/4_134.aspx
+7,garcía noblejas,11,4,/tu-transporte-publico/metro/estaciones/4_135.aspx
+7,ascao,12,4,/tu-transporte-publico/metro/estaciones/4_136.aspx
+7,pueblo nuevo,13,4,/tu-transporte-publico/metro/estaciones/4_78.aspx
+7,barrio de la concepción,14,4,/tu-transporte-publico/metro/estaciones/4_138.aspx
+7,parque de las avenidas,15,4,/tu-transporte-publico/metro/estaciones/4_139.aspx
+7,cartagena,16,4,/tu-transporte-publico/metro/estaciones/4_140.aspx
+7,avenida de américa,17,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
+7,gregorio marañón,18,4,/tu-transporte-publico/metro/estaciones/4_142.aspx
+7,alonso cano,19,4,/tu-transporte-publico/metro/estaciones/4_143.aspx
+7,canal,20,4,/tu-transporte-publico/metro/estaciones/4_41.aspx
+7,islas filipinas,21,4,/tu-transporte-publico/metro/estaciones/4_145.aspx
+5,alameda de osuna,0,4,/tu-transporte-publico/metro/estaciones/4_252.aspx
+5,el capricho,1,4,/tu-transporte-publico/metro/estaciones/4_253.aspx
+5,canillejas,2,4,/tu-transporte-publico/metro/estaciones/4_74.aspx
+5,torre arias,3,4,/tu-transporte-publico/metro/estaciones/4_75.aspx
+5,suanzes,4,4,/tu-transporte-publico/metro/estaciones/4_76.aspx
+5,ciudad lineal,5,4,/tu-transporte-publico/metro/estaciones/4_77.aspx
+5,pueblo nuevo,6,4,/tu-transporte-publico/metro/estaciones/4_78.aspx
+5,quintana,7,4,/tu-transporte-publico/metro/estaciones/4_79.aspx
+7,guzmán el bueno,22,4,/tu-transporte-publico/metro/estaciones/4_122.aspx
+7,francos rodríguez,23,4,/tu-transporte-publico/metro/estaciones/4_147.aspx
+7,valdezarza,24,4,/tu-transporte-publico/metro/estaciones/4_148.aspx
+7,antonio machado,25,4,/tu-transporte-publico/metro/estaciones/4_149.aspx
+7,peñagrande,26,4,/tu-transporte-publico/metro/estaciones/4_150.aspx
+7,avenida de la ilustración,27,4,/tu-transporte-publico/metro/estaciones/4_151.aspx
+7,lacoma,28,4,/tu-transporte-publico/metro/estaciones/4_152.aspx
+7,arroyofresno,29,4,/tu-transporte-publico/metro/estaciones/4_153.aspx
+7,pitis,30,4,/tu-transporte-publico/metro/estaciones/4_154.aspx
+5,el carmen,8,4,/tu-transporte-publico/metro/estaciones/4_80.aspx
+5,ventas,9,4,/tu-transporte-publico/metro/estaciones/4_28.aspx
+5,diego de león,10,4,/tu-transporte-publico/metro/estaciones/4_63.aspx
+5,núñez de balboa,11,4,/tu-transporte-publico/metro/estaciones/4_83.aspx
+5,rubén darío,12,4,/tu-transporte-publico/metro/estaciones/4_84.aspx
+5,alonso martínez,13,4,/tu-transporte-publico/metro/estaciones/4_57.aspx
+5,chueca,14,4,/tu-transporte-publico/metro/estaciones/4_86.aspx
+5,gran vía,15,4,/tu-transporte-publico/metro/estaciones/4_11.aspx
+5,callao,16,4,/tu-transporte-publico/metro/estaciones/4_49.aspx
+5,ópera,17,4,/tu-transporte-publico/metro/estaciones/4_36.aspx
+5,la latina,18,4,/tu-transporte-publico/metro/estaciones/4_90.aspx
+5,puerta de toledo,19,4,/tu-transporte-publico/metro/estaciones/4_91.aspx
+5,acacias,20,4,/tu-transporte-publico/metro/estaciones/4_92.aspx
+5,pirámides,21,4,/tu-transporte-publico/metro/estaciones/4_93.aspx
+5,marqués de vadillo,22,4,/tu-transporte-publico/metro/estaciones/4_94.aspx
+5,urgel,23,4,/tu-transporte-publico/metro/estaciones/4_95.aspx
+5,oporto,24,4,/tu-transporte-publico/metro/estaciones/4_96.aspx
+5,vista alegre,25,4,/tu-transporte-publico/metro/estaciones/4_97.aspx
+5,carabanchel,26,4,/tu-transporte-publico/metro/estaciones/4_98.aspx
+5,eugenia de montijo,27,4,/tu-transporte-publico/metro/estaciones/4_99.aspx
+5,aluche,28,4,/tu-transporte-publico/metro/estaciones/4_100.aspx
+5,empalme,29,4,/tu-transporte-publico/metro/estaciones/4_101.aspx
+5,campamento,30,4,/tu-transporte-publico/metro/estaciones/4_102.aspx
+5,casa de campo,31,4,/tu-transporte-publico/metro/estaciones/4_103.aspx
+4,argüelles,0,4,/tu-transporte-publico/metro/estaciones/4_52.aspx
+4,san bernardo,1,4,/tu-transporte-publico/metro/estaciones/4_39.aspx
+4,bilbao,2,4,/tu-transporte-publico/metro/estaciones/4_9.aspx
+4,alonso martínez,3,4,/tu-transporte-publico/metro/estaciones/4_57.aspx
+4,colón,4,4,/tu-transporte-publico/metro/estaciones/4_58.aspx
+4,serrano,5,4,/tu-transporte-publico/metro/estaciones/4_59.aspx
+4,velázquez,6,4,/tu-transporte-publico/metro/estaciones/4_60.aspx
+4,goya,7,4,/tu-transporte-publico/metro/estaciones/4_30.aspx
+4,lista,8,4,/tu-transporte-publico/metro/estaciones/4_62.aspx
+4,diego de león,9,4,/tu-transporte-publico/metro/estaciones/4_63.aspx
+4,avenida de américa,10,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
+4,prosperidad,11,4,/tu-transporte-publico/metro/estaciones/4_65.aspx
+4,alfonso xiii,12,4,/tu-transporte-publico/metro/estaciones/4_66.aspx
+4,avenida de la paz,13,4,/tu-transporte-publico/metro/estaciones/4_67.aspx
+4,arturo soria,14,4,/tu-transporte-publico/metro/estaciones/4_68.aspx
+4,esperanza,15,4,/tu-transporte-publico/metro/estaciones/4_69.aspx
+4,canillas,16,4,/tu-transporte-publico/metro/estaciones/4_70.aspx
+4,mar de cristal,17,4,/tu-transporte-publico/metro/estaciones/4_71.aspx
+4,san lorenzo,18,4,/tu-transporte-publico/metro/estaciones/4_72.aspx
+4,parque de santa maría,19,4,/tu-transporte-publico/metro/estaciones/4_73.aspx
+4,hortaleza,20,4,/tu-transporte-publico/metro/estaciones/4_264.aspx
+4,manoteras,21,4,/tu-transporte-publico/metro/estaciones/4_265.aspx
+4,pinar de chamartín,22,4,/tu-transporte-publico/metro/estaciones/4_263.aspx
+11,plaza elíptica,0,4,/tu-transporte-publico/metro/estaciones/4_108.aspx
+11,abrantes,1,4,/tu-transporte-publico/metro/estaciones/4_207.aspx
+11,pan bendito,2,4,/tu-transporte-publico/metro/estaciones/4_208.aspx
+11,san francisco,3,4,/tu-transporte-publico/metro/estaciones/4_254.aspx
+11,carabanchel alto,4,4,/tu-transporte-publico/metro/estaciones/4_255.aspx
+11,la peseta,5,4,/tu-transporte-publico/metro/estaciones/4_256.aspx
+11,la fortuna,6,4,/tu-transporte-publico/metro/estaciones/4_305.aspx
+8,nuevos ministerios,0,4,/tu-transporte-publico/metro/estaciones/4_120.aspx
+8,colombia,1,4,/tu-transporte-publico/metro/estaciones/4_156.aspx
+8,pinar del rey,2,4,/tu-transporte-publico/metro/estaciones/4_258.aspx
+8,mar de cristal,3,4,/tu-transporte-publico/metro/estaciones/4_71.aspx
+6,laguna,0,4,/tu-transporte-publico/metro/estaciones/4_104.aspx
+6,carpetana,1,4,/tu-transporte-publico/metro/estaciones/4_105.aspx
+6,oporto,2,4,/tu-transporte-publico/metro/estaciones/4_96.aspx
+6,opañel,3,4,/tu-transporte-publico/metro/estaciones/4_107.aspx
+6,plaza elíptica,4,4,/tu-transporte-publico/metro/estaciones/4_108.aspx
+6,usera,5,4,/tu-transporte-publico/metro/estaciones/4_109.aspx
+6,legazpi,6,4,/tu-transporte-publico/metro/estaciones/4_43.aspx
+8,feria de madrid,4,4,/tu-transporte-publico/metro/estaciones/4_158.aspx
+8,aeropuerto t1-t2-t3,5,4,/tu-transporte-publico/metro/estaciones/4_159.aspx
+8,barajas,6,4,/tu-transporte-publico/metro/estaciones/4_160.aspx
+8,aeropuerto t4,7,4,/tu-transporte-publico/metro/estaciones/4_285.aspx
+6,arganzuela - planetario,7,4,/tu-transporte-publico/metro/estaciones/4_259.aspx
+6,méndez álvaro,8,4,/tu-transporte-publico/metro/estaciones/4_111.aspx
+6,pacífico,9,4,/tu-transporte-publico/metro/estaciones/4_18.aspx
+6,conde de casal,10,4,/tu-transporte-publico/metro/estaciones/4_113.aspx
+6,sáinz de baranda,11,4,/tu-transporte-publico/metro/estaciones/4_114.aspx
+6,o'donnell,12,4,/tu-transporte-publico/metro/estaciones/4_115.aspx
+6,manuel becerra,13,4,/tu-transporte-publico/metro/estaciones/4_29.aspx
+6,diego de león,14,4,/tu-transporte-publico/metro/estaciones/4_63.aspx
+6,avenida de américa,15,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
+6,república argentina,16,4,/tu-transporte-publico/metro/estaciones/4_119.aspx
+6,nuevos ministerios,17,4,/tu-transporte-publico/metro/estaciones/4_120.aspx
+6,cuatro caminos,18,4,/tu-transporte-publico/metro/estaciones/4_6.aspx
+9,paco de lucía,0,4,/tu-transporte-publico/metro/estaciones/4_345.aspx
+9,mirasierra,1,4,/tu-transporte-publico/metro/estaciones/4_326.aspx
+9,herrera oria,2,4,/tu-transporte-publico/metro/estaciones/4_161.aspx
+9,barrio del pilar,3,4,/tu-transporte-publico/metro/estaciones/4_162.aspx
+9,ventilla,4,4,/tu-transporte-publico/metro/estaciones/4_163.aspx
+9,plaza de castilla,5,4,/tu-transporte-publico/metro/estaciones/4_1.aspx
+9,duque de pastrana,6,4,/tu-transporte-publico/metro/estaciones/4_165.aspx
+9,pío xii,7,4,/tu-transporte-publico/metro/estaciones/4_166.aspx
+9,colombia,8,4,/tu-transporte-publico/metro/estaciones/4_156.aspx
+6,guzmán el bueno,19,4,/tu-transporte-publico/metro/estaciones/4_122.aspx
+6,vicente aleixandre,20,4,/tu-transporte-publico/metro/estaciones/4_123.aspx
+6,ciudad universitaria,21,4,/tu-transporte-publico/metro/estaciones/4_124.aspx
+6,moncloa,22,4,/tu-transporte-publico/metro/estaciones/4_53.aspx
+6,argüelles,23,4,/tu-transporte-publico/metro/estaciones/4_52.aspx
+6,príncipe pío,24,4,/tu-transporte-publico/metro/estaciones/4_127.aspx
+6,puerta del ángel,25,4,/tu-transporte-publico/metro/estaciones/4_128.aspx
+9,concha espina,9,4,/tu-transporte-publico/metro/estaciones/4_168.aspx
+9,cruz del rayo,10,4,/tu-transporte-publico/metro/estaciones/4_169.aspx
+9,avenida de américa,11,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
+9,núñez de balboa,12,4,/tu-transporte-publico/metro/estaciones/4_83.aspx
+9,príncipe de vergara,13,4,/tu-transporte-publico/metro/estaciones/4_31.aspx
+9,ibiza,14,4,/tu-transporte-publico/metro/estaciones/4_173.aspx
+9,sainz de baranda,15,4,/tu-transporte-publico/metro/estaciones/4_114.aspx
+9,estrella,16,4,/tu-transporte-publico/metro/estaciones/4_175.aspx
+6,alto de extremadura,26,4,/tu-transporte-publico/metro/estaciones/4_129.aspx
+6,lucero,27,4,/tu-transporte-publico/metro/estaciones/4_130.aspx
+9,vinateros,17,4,/tu-transporte-publico/metro/estaciones/4_176.aspx
+9,artilleros,18,4,/tu-transporte-publico/metro/estaciones/4_177.aspx
+9,pavones,19,4,/tu-transporte-publico/metro/estaciones/4_178.aspx
+9,valdebernardo,20,4,/tu-transporte-publico/metro/estaciones/4_179.aspx
+9,vicálvaro,21,4,/tu-transporte-publico/metro/estaciones/4_180.aspx
+9,san cipriano,22,4,/tu-transporte-publico/metro/estaciones/4_181.aspx
+9,puerta de arganda,23,4,/tu-transporte-publico/metro/estaciones/4_182.aspx
+9,rivas urbanizaciones,24,4,/tu-transporte-publico/metro/estaciones/4_183.aspx
+9,rivas futura,25,4,/tu-transporte-publico/metro/estaciones/4_300.aspx
+9,rivas vaciamadrid,26,4,/tu-transporte-publico/metro/estaciones/4_184.aspx
+9,la poveda,27,4,/tu-transporte-publico/metro/estaciones/4_185.aspx
+9,arganda del rey,28,4,/tu-transporte-publico/metro/estaciones/4_186.aspx
 3,villaverde alto,0,4,/tu-transporte-publico/metro/estaciones/4_273.aspx
 3,san cristóbal,1,4,/tu-transporte-publico/metro/estaciones/4_272.aspx
 3,villaverde bajo - cruce,2,4,/tu-transporte-publico/metro/estaciones/4_271.aspx
@@ -89,6 +232,16 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 10,las tablas,8,4,/tu-transporte-publico/metro/estaciones/4_276.aspx
 10,montecarmelo,9,4,/tu-transporte-publico/metro/estaciones/4_275.aspx
 10,tres olivos,10,4,/tu-transporte-publico/metro/estaciones/4_274.aspx
+10,villalba,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_91.aspx
+10,galapagar - la navata,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_33.aspx
+10,torrelodones,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_82.aspx
+10,las matas,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_44.aspx
+10,pinar de las rozas,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_55.aspx
+10,las rozas,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_68.aspx
+10,majadahonda,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_42.aspx
+10,el barrial - c.c. pozuelo,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_13.aspx
+10,pozuelo,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_60.aspx
+10,aravaca,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_9.aspx
 10,fuencarral,11,4,/tu-transporte-publico/metro/estaciones/4_187.aspx
 10,begoña,12,4,/tu-transporte-publico/metro/estaciones/4_188.aspx
 10,chamartín,13,4,/tu-transporte-publico/metro/estaciones/4_261.aspx
@@ -98,108 +251,20 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 10,nuevos ministerios,17,4,/tu-transporte-publico/metro/estaciones/4_120.aspx
 10,gregorio marañón,18,4,/tu-transporte-publico/metro/estaciones/4_142.aspx
 10,alonso martínez,19,4,/tu-transporte-publico/metro/estaciones/4_57.aspx
-5,alameda de osuna,0,4,/tu-transporte-publico/metro/estaciones/4_252.aspx
-5,el capricho,1,4,/tu-transporte-publico/metro/estaciones/4_253.aspx
-5,canillejas,2,4,/tu-transporte-publico/metro/estaciones/4_74.aspx
-5,torre arias,3,4,/tu-transporte-publico/metro/estaciones/4_75.aspx
-5,suanzes,4,4,/tu-transporte-publico/metro/estaciones/4_76.aspx
-5,ciudad lineal,5,4,/tu-transporte-publico/metro/estaciones/4_77.aspx
-7,hospital del henares,0,4,/tu-transporte-publico/metro/estaciones/4_296.aspx
-7,henares,1,4,/tu-transporte-publico/metro/estaciones/4_292.aspx
-7,jarama,2,4,/tu-transporte-publico/metro/estaciones/4_291.aspx
-7,san fernando,3,4,/tu-transporte-publico/metro/estaciones/4_290.aspx
-7,la rambla,4,4,/tu-transporte-publico/metro/estaciones/4_289.aspx
 10,tribunal,20,4,/tu-transporte-publico/metro/estaciones/4_10.aspx
+10,príncipe pío,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_61.aspx
+10,pirámides,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_57.aspx
+10,delicias,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_25.aspx
+10,méndez álvaro,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_46.aspx
 10,plaza de españa,21,4,/tu-transporte-publico/metro/estaciones/4_50.aspx
 10,príncipe pío,22,4,/tu-transporte-publico/metro/estaciones/4_127.aspx
 10,lago,23,4,/tu-transporte-publico/metro/estaciones/4_199.aspx
 10,batán,24,4,/tu-transporte-publico/metro/estaciones/4_200.aspx
 10,casa de campo,25,4,/tu-transporte-publico/metro/estaciones/4_103.aspx
 10,colonia jardín,26,4,/tu-transporte-publico/metro/estaciones/4_202.aspx
-5,pueblo nuevo,6,4,/tu-transporte-publico/metro/estaciones/4_78.aspx
-5,quintana,7,4,/tu-transporte-publico/metro/estaciones/4_79.aspx
-5,el carmen,8,4,/tu-transporte-publico/metro/estaciones/4_80.aspx
-5,ventas,9,4,/tu-transporte-publico/metro/estaciones/4_28.aspx
-5,diego de león,10,4,/tu-transporte-publico/metro/estaciones/4_63.aspx
-5,núñez de balboa,11,4,/tu-transporte-publico/metro/estaciones/4_83.aspx
-5,rubén darío,12,4,/tu-transporte-publico/metro/estaciones/4_84.aspx
-5,alonso martínez,13,4,/tu-transporte-publico/metro/estaciones/4_57.aspx
-7,coslada central,5,4,/tu-transporte-publico/metro/estaciones/4_288.aspx
-7,barrio del puerto,6,4,/tu-transporte-publico/metro/estaciones/4_287.aspx
-7,estadio metropolitano,7,4,/tu-transporte-publico/metro/estaciones/4_286.aspx
-7,las musas,8,4,/tu-transporte-publico/metro/estaciones/4_132.aspx
-7,san blas,9,4,/tu-transporte-publico/metro/estaciones/4_133.aspx
-7,simancas,10,4,/tu-transporte-publico/metro/estaciones/4_134.aspx
-7,garcía noblejas,11,4,/tu-transporte-publico/metro/estaciones/4_135.aspx
 10,aviación española,27,4,/tu-transporte-publico/metro/estaciones/4_257.aspx
 10,cuatro vientos,28,4,/tu-transporte-publico/metro/estaciones/4_203.aspx
 10,joaquín vilumbrales,29,4,/tu-transporte-publico/metro/estaciones/4_204.aspx
-10,puerta del sur,30,4,/tu-transporte-publico/metro/estaciones/4_205.aspx
-5,chueca,14,4,/tu-transporte-publico/metro/estaciones/4_86.aspx
-5,gran vía,15,4,/tu-transporte-publico/metro/estaciones/4_11.aspx
-5,callao,16,4,/tu-transporte-publico/metro/estaciones/4_49.aspx
-5,ópera,17,4,/tu-transporte-publico/metro/estaciones/4_36.aspx
-5,la latina,18,4,/tu-transporte-publico/metro/estaciones/4_90.aspx
-5,puerta de toledo,19,4,/tu-transporte-publico/metro/estaciones/4_91.aspx
-5,acacias,20,4,/tu-transporte-publico/metro/estaciones/4_92.aspx
-5,pirámides,21,4,/tu-transporte-publico/metro/estaciones/4_93.aspx
-5,marqués de vadillo,22,4,/tu-transporte-publico/metro/estaciones/4_94.aspx
-7,ascao,12,4,/tu-transporte-publico/metro/estaciones/4_136.aspx
-7,pueblo nuevo,13,4,/tu-transporte-publico/metro/estaciones/4_78.aspx
-7,barrio de la concepción,14,4,/tu-transporte-publico/metro/estaciones/4_138.aspx
-7,parque de las avenidas,15,4,/tu-transporte-publico/metro/estaciones/4_139.aspx
-7,cartagena,16,4,/tu-transporte-publico/metro/estaciones/4_140.aspx
-7,avenida de américa,17,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
-7,gregorio marañón,18,4,/tu-transporte-publico/metro/estaciones/4_142.aspx
-7,alonso cano,19,4,/tu-transporte-publico/metro/estaciones/4_143.aspx
-5,urgel,23,4,/tu-transporte-publico/metro/estaciones/4_95.aspx
-5,oporto,24,4,/tu-transporte-publico/metro/estaciones/4_96.aspx
-5,vista alegre,25,4,/tu-transporte-publico/metro/estaciones/4_97.aspx
-5,carabanchel,26,4,/tu-transporte-publico/metro/estaciones/4_98.aspx
-5,eugenia de montijo,27,4,/tu-transporte-publico/metro/estaciones/4_99.aspx
-5,aluche,28,4,/tu-transporte-publico/metro/estaciones/4_100.aspx
-5,empalme,29,4,/tu-transporte-publico/metro/estaciones/4_101.aspx
-5,campamento,30,4,/tu-transporte-publico/metro/estaciones/4_102.aspx
-5,casa de campo,31,4,/tu-transporte-publico/metro/estaciones/4_103.aspx
-7,canal,20,4,/tu-transporte-publico/metro/estaciones/4_41.aspx
-7,islas filipinas,21,4,/tu-transporte-publico/metro/estaciones/4_145.aspx
-7,guzmán el bueno,22,4,/tu-transporte-publico/metro/estaciones/4_122.aspx
-7,francos rodríguez,23,4,/tu-transporte-publico/metro/estaciones/4_147.aspx
-7,valdezarza,24,4,/tu-transporte-publico/metro/estaciones/4_148.aspx
-7,antonio machado,25,4,/tu-transporte-publico/metro/estaciones/4_149.aspx
-7,peñagrande,26,4,/tu-transporte-publico/metro/estaciones/4_150.aspx
-7,avenida de la ilustración,27,4,/tu-transporte-publico/metro/estaciones/4_151.aspx
-7,lacoma,28,4,/tu-transporte-publico/metro/estaciones/4_152.aspx
-7,arroyofresno,29,4,/tu-transporte-publico/metro/estaciones/4_153.aspx
-7,pitis,30,4,/tu-transporte-publico/metro/estaciones/4_154.aspx
-2,las rosas,0,4,/tu-transporte-publico/metro/estaciones/4_325.aspx
-2,avenida de guadalajara,1,4,/tu-transporte-publico/metro/estaciones/4_324.aspx
-2,alsacia,2,4,/tu-transporte-publico/metro/estaciones/4_323.aspx
-2,la almudena,3,4,/tu-transporte-publico/metro/estaciones/4_322.aspx
-2,la elipa,4,4,/tu-transporte-publico/metro/estaciones/4_260.aspx
-2,ventas,5,4,/tu-transporte-publico/metro/estaciones/4_28.aspx
-2,manuel becerra,6,4,/tu-transporte-publico/metro/estaciones/4_29.aspx
-2,goya,7,4,/tu-transporte-publico/metro/estaciones/4_30.aspx
-2,príncipe de vergara,8,4,/tu-transporte-publico/metro/estaciones/4_31.aspx
-2,retiro,9,4,/tu-transporte-publico/metro/estaciones/4_32.aspx
-2,banco de españa,10,4,/tu-transporte-publico/metro/estaciones/4_33.aspx
-2,sevilla,11,4,/tu-transporte-publico/metro/estaciones/4_34.aspx
-2,sol,12,4,/tu-transporte-publico/metro/estaciones/4_12.aspx
-2,ópera,13,4,/tu-transporte-publico/metro/estaciones/4_36.aspx
-2,santo domingo,14,4,/tu-transporte-publico/metro/estaciones/4_37.aspx
-2,noviciado,15,4,/tu-transporte-publico/metro/estaciones/4_38.aspx
-2,san bernardo,16,4,/tu-transporte-publico/metro/estaciones/4_39.aspx
-2,quevedo,17,4,/tu-transporte-publico/metro/estaciones/4_40.aspx
-2,canal,18,4,/tu-transporte-publico/metro/estaciones/4_41.aspx
-2,cuatro caminos,19,4,/tu-transporte-publico/metro/estaciones/4_6.aspx
-8,nuevos ministerios,0,4,/tu-transporte-publico/metro/estaciones/4_120.aspx
-8,colombia,1,4,/tu-transporte-publico/metro/estaciones/4_156.aspx
-8,pinar del rey,2,4,/tu-transporte-publico/metro/estaciones/4_258.aspx
-8,mar de cristal,3,4,/tu-transporte-publico/metro/estaciones/4_71.aspx
-8,feria de madrid,4,4,/tu-transporte-publico/metro/estaciones/4_158.aspx
-8,aeropuerto t1-t2-t3,5,4,/tu-transporte-publico/metro/estaciones/4_159.aspx
-8,barajas,6,4,/tu-transporte-publico/metro/estaciones/4_160.aspx
-8,aeropuerto t4,7,4,/tu-transporte-publico/metro/estaciones/4_285.aspx
 12,puerta del sur,0,4,/tu-transporte-publico/metro/estaciones/4_205.aspx
 12,parque lisboa,1,4,/tu-transporte-publico/metro/estaciones/4_210.aspx
 12,alcorcón central,2,4,/tu-transporte-publico/metro/estaciones/4_211.aspx
@@ -207,6 +272,14 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 12,universidad rey juan carlos,4,4,/tu-transporte-publico/metro/estaciones/4_213.aspx
 12,móstoles central,5,4,/tu-transporte-publico/metro/estaciones/4_214.aspx
 12,pradillo,6,4,/tu-transporte-publico/metro/estaciones/4_215.aspx
+10,atocha,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+10,recoletos,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
+10,nuevos ministerios,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+10,chamartín,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+10,fuente de la mora,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_133.aspx
+10,valdebebas,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_144.aspx
+10,aeropuerto t4,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_142.aspx
+10,puerta del sur,30,4,/tu-transporte-publico/metro/estaciones/4_205.aspx
 12,hospital de móstoles,7,4,/tu-transporte-publico/metro/estaciones/4_216.aspx
 12,manuela malasaña,8,4,/tu-transporte-publico/metro/estaciones/4_217.aspx
 12,loranca,9,4,/tu-transporte-publico/metro/estaciones/4_218.aspx
@@ -225,191 +298,12 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 12,el carrascal,22,4,/tu-transporte-publico/metro/estaciones/4_231.aspx
 12,julian besteiro,23,4,/tu-transporte-publico/metro/estaciones/4_232.aspx
 12,casa del reloj,24,4,/tu-transporte-publico/metro/estaciones/4_233.aspx
-4,argüelles,0,4,/tu-transporte-publico/metro/estaciones/4_52.aspx
-4,san bernardo,1,4,/tu-transporte-publico/metro/estaciones/4_39.aspx
-4,bilbao,2,4,/tu-transporte-publico/metro/estaciones/4_9.aspx
-4,alonso martínez,3,4,/tu-transporte-publico/metro/estaciones/4_57.aspx
 12,hospital severo ochoa,25,4,/tu-transporte-publico/metro/estaciones/4_234.aspx
 12,leganés central,26,4,/tu-transporte-publico/metro/estaciones/4_235.aspx
 12,san nicasio,27,4,/tu-transporte-publico/metro/estaciones/4_236.aspx
-2,guadalajara,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_38.aspx
-2,azuqueca,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_12.aspx
-2,meco,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_45.aspx
-2,alcalá de henares universidad,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_3.aspx
-2,alcalá de henares,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_2.aspx
-2,la garena,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_106.aspx
-2,soto del henares,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_143.aspx
-2,torrejón de ardoz,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_81.aspx
-4,colón,4,4,/tu-transporte-publico/metro/estaciones/4_58.aspx
-4,serrano,5,4,/tu-transporte-publico/metro/estaciones/4_59.aspx
-4,velázquez,6,4,/tu-transporte-publico/metro/estaciones/4_60.aspx
-4,goya,7,4,/tu-transporte-publico/metro/estaciones/4_30.aspx
-2,san fernando,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_71.aspx
-2,coslada,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_22.aspx
-2,vicálvaro,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_90.aspx
-2,santa eugenia,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_75.aspx
-2,vallecas,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_87.aspx
-2,el pozo,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_59.aspx
-2,asamblea de madrid-entrevías,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_10.aspx
-2,atocha,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-11,plaza elíptica,0,4,/tu-transporte-publico/metro/estaciones/4_108.aspx
-11,abrantes,1,4,/tu-transporte-publico/metro/estaciones/4_207.aspx
-11,pan bendito,2,4,/tu-transporte-publico/metro/estaciones/4_208.aspx
-11,san francisco,3,4,/tu-transporte-publico/metro/estaciones/4_254.aspx
-11,carabanchel alto,4,4,/tu-transporte-publico/metro/estaciones/4_255.aspx
-11,la peseta,5,4,/tu-transporte-publico/metro/estaciones/4_256.aspx
-11,la fortuna,6,4,/tu-transporte-publico/metro/estaciones/4_305.aspx
-4,lista,8,4,/tu-transporte-publico/metro/estaciones/4_62.aspx
-4,diego de león,9,4,/tu-transporte-publico/metro/estaciones/4_63.aspx
-4,avenida de américa,10,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
-4,prosperidad,11,4,/tu-transporte-publico/metro/estaciones/4_65.aspx
-4,alfonso xiii,12,4,/tu-transporte-publico/metro/estaciones/4_66.aspx
-4,avenida de la paz,13,4,/tu-transporte-publico/metro/estaciones/4_67.aspx
-4,arturo soria,14,4,/tu-transporte-publico/metro/estaciones/4_68.aspx
-4,esperanza,15,4,/tu-transporte-publico/metro/estaciones/4_69.aspx
-2,recoletos,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
-2,nuevos ministerios,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-2,chamartín,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-4,canillas,16,4,/tu-transporte-publico/metro/estaciones/4_70.aspx
-4,mar de cristal,17,4,/tu-transporte-publico/metro/estaciones/4_71.aspx
-4,san lorenzo,18,4,/tu-transporte-publico/metro/estaciones/4_72.aspx
-4,parque de santa maría,19,4,/tu-transporte-publico/metro/estaciones/4_73.aspx
-4,hortaleza,20,4,/tu-transporte-publico/metro/estaciones/4_264.aspx
-4,manoteras,21,4,/tu-transporte-publico/metro/estaciones/4_265.aspx
-4,pinar de chamartín,22,4,/tu-transporte-publico/metro/estaciones/4_263.aspx
-3a,aranjuez,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_8.aspx
-3a,ciempozuelos,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_19.aspx
-3a,valdemoro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_86.aspx
-3a,pinto,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_56.aspx
-3a,getafe industrial,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_35.aspx
-3a,el casar,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_103.aspx
-3a,san cristóbal industrial,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_70.aspx
-3a,san cristóbal de los ángeles,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_69.aspx
-3a,villaverde bajo,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
-3a,atocha,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-3a,sol,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
-3a,nuevos ministerios,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-3a,chamartín,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-3a,ramón y cajal,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_64.aspx
-3a,mirasierra-paco de lucía,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_145.aspx
-3a,pitis,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_58.aspx
-3a,pinar de las rozas,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_55.aspx
-3a,las matas,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_44.aspx
-3a,torrelodones,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_82.aspx
-3a,galapagar - la navata,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_33.aspx
-3a,villalba,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_91.aspx
-3a,san yago,21,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_74.aspx
-3a,las zorreras,22,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_96.aspx
-3a,el escorial,23,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_29.aspx
-3a,zarzalejo,24,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_94.aspx
-3a,robledo de chavela,25,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_67.aspx
-3a,santa maría de la alameda,26,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_76.aspx
-4a,parla,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_53.aspx
-4a,getafe sector 3,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_36.aspx
-4a,getafe centro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_34.aspx
-4a,las margaritas - universidad,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_43.aspx
-9,paco de lucía,0,4,/tu-transporte-publico/metro/estaciones/4_345.aspx
-9,mirasierra,1,4,/tu-transporte-publico/metro/estaciones/4_326.aspx
-9,herrera oria,2,4,/tu-transporte-publico/metro/estaciones/4_161.aspx
-9,barrio del pilar,3,4,/tu-transporte-publico/metro/estaciones/4_162.aspx
-4a,villaverde alto,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_92.aspx
-4a,villaverde bajo,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
-4a,atocha,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-4a,sol,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
-4a,nuevos ministerios,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-4a,chamartín,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-4a,fuencarral,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_31.aspx
-4a,cantoblanco universidad,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_15.aspx
-9,ventilla,4,4,/tu-transporte-publico/metro/estaciones/4_163.aspx
-9,plaza de castilla,5,4,/tu-transporte-publico/metro/estaciones/4_1.aspx
-9,duque de pastrana,6,4,/tu-transporte-publico/metro/estaciones/4_165.aspx
-9,pío xii,7,4,/tu-transporte-publico/metro/estaciones/4_166.aspx
-9,colombia,8,4,/tu-transporte-publico/metro/estaciones/4_156.aspx
-9,concha espina,9,4,/tu-transporte-publico/metro/estaciones/4_168.aspx
-9,cruz del rayo,10,4,/tu-transporte-publico/metro/estaciones/4_169.aspx
-9,avenida de américa,11,4,/tu-transporte-publico/metro/estaciones/4_64.aspx
-4a,universidad p. comillas,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_84.aspx
-4a,valdelasfuentes,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_85.aspx
-4a,alcobendas - s.s. de los reyes,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_4.aspx
-9,núñez de balboa,12,4,/tu-transporte-publico/metro/estaciones/4_83.aspx
-9,príncipe de vergara,13,4,/tu-transporte-publico/metro/estaciones/4_31.aspx
-9,ibiza,14,4,/tu-transporte-publico/metro/estaciones/4_173.aspx
-9,sainz de baranda,15,4,/tu-transporte-publico/metro/estaciones/4_114.aspx
-9,estrella,16,4,/tu-transporte-publico/metro/estaciones/4_175.aspx
-9,vinateros,17,4,/tu-transporte-publico/metro/estaciones/4_176.aspx
-9,artilleros,18,4,/tu-transporte-publico/metro/estaciones/4_177.aspx
-9,pavones,19,4,/tu-transporte-publico/metro/estaciones/4_178.aspx
-9,valdebernardo,20,4,/tu-transporte-publico/metro/estaciones/4_179.aspx
-9,vicálvaro,21,4,/tu-transporte-publico/metro/estaciones/4_180.aspx
-9,san cipriano,22,4,/tu-transporte-publico/metro/estaciones/4_181.aspx
-9,puerta de arganda,23,4,/tu-transporte-publico/metro/estaciones/4_182.aspx
-9,rivas urbanizaciones,24,4,/tu-transporte-publico/metro/estaciones/4_183.aspx
-9,rivas futura,25,4,/tu-transporte-publico/metro/estaciones/4_300.aspx
-9,rivas vaciamadrid,26,4,/tu-transporte-publico/metro/estaciones/4_184.aspx
-9,la poveda,27,4,/tu-transporte-publico/metro/estaciones/4_185.aspx
-9,arganda del rey,28,4,/tu-transporte-publico/metro/estaciones/4_186.aspx
-5,móstoles - el soto,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_49.aspx
-5,móstoles,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_48.aspx
-5,las retamas,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_66.aspx
-5,alcorcón,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_5.aspx
-5,san josé de valderas,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_72.aspx
-5,cuatro vientos,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_24.aspx
-5,las águilas,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_1.aspx
-5,fanjul,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_30.aspx
-5,aluche,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_7.aspx
-5,laguna,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_40.aspx
-5,embajadores,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_28.aspx
-5,atocha,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-5,méndez álvaro,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_46.aspx
-5,doce de octubre,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_26.aspx
-5,orcasitas,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_52.aspx
-5,puente alcocer,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_62.aspx
-5,villaverde alto,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_92.aspx
-5,zarzaquemada,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_95.aspx
-5,leganés,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_41.aspx
-5,parque polvoranca,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_105.aspx
-5,la serna,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_77.aspx
-5,fuenlabrada,21,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_32.aspx
-5,humanes,22,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_104.aspx
-7,alcalá de henares,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_2.aspx
-7,la garena,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_106.aspx
-7,soto del henares,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_143.aspx
-7,torrejón de ardoz,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_81.aspx
-7,san fernando,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_71.aspx
-7,coslada,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_22.aspx
-7,vicálvaro,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_90.aspx
-7,santa eugenia,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_75.aspx
-7,vallecas,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_87.aspx
-7,el pozo,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_59.aspx
-7,asamblea de madrid-entrevías,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_10.aspx
-7,atocha,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-7,recoletos,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
-7,nuevos ministerios,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-7,chamartín,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-7,ramón y cajal,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_64.aspx
-7,mirasierra-paco de lucía,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_145.aspx
-7,pitis,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_58.aspx
-7,las rozas,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_68.aspx
-7,majadahonda,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_42.aspx
-7,el barrial - c.c. pozuelo,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_13.aspx
-7,pozuelo,21,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_60.aspx
-7,aravaca,22,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_9.aspx
-7,príncipe pío,23,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_61.aspx
-4b,parla,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_53.aspx
-4b,getafe sector 3,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_36.aspx
-4b,getafe centro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_34.aspx
-4b,las margaritas - universidad,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_43.aspx
-4b,villaverde alto,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_92.aspx
-4b,villaverde bajo,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
-4b,atocha,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-4b,sol,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
-4b,nuevos ministerios,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-4b,chamartín,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-4b,fuencarral,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_31.aspx
-4b,cantoblanco universidad,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_15.aspx
-4b,el goloso,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_37.aspx
-4b,tres cantos,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_83.aspx
-4b,colmenar viejo,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_21.aspx
+9,cercedilla,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_16.aspx
+9,puerto de navacerrada,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_63.aspx
+9,cotos,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_23.aspx
 8,guadalajara,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_38.aspx
 8,azuqueca,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_12.aspx
 8,meco,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_45.aspx
@@ -440,74 +334,8 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 8,los negrales,27,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_50.aspx
 8,alpedrete,28,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_6.aspx
 8,collado mediano,29,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_20.aspx
-10,villalba,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_91.aspx
-10,galapagar - la navata,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_33.aspx
-10,torrelodones,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_82.aspx
-10,las matas,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_44.aspx
-10,pinar de las rozas,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_55.aspx
-10,las rozas,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_68.aspx
-10,majadahonda,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_42.aspx
-10,el barrial - c.c. pozuelo,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_13.aspx
 8,los molinos,30,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_47.aspx
 8,cercedilla,31,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_16.aspx
-10,pozuelo,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_60.aspx
-10,aravaca,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_9.aspx
-10,príncipe pío,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_61.aspx
-10,pirámides,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_57.aspx
-10,delicias,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_25.aspx
-10,méndez álvaro,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_46.aspx
-10,atocha,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-10,recoletos,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
-10,nuevos ministerios,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-10,chamartín,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-10,fuente de la mora,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_133.aspx
-10,valdebebas,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_144.aspx
-10,aeropuerto t4,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_142.aspx
-3,aranjuez,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_8.aspx
-3,ciempozuelos,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_19.aspx
-3,valdemoro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_86.aspx
-3,pinto,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_56.aspx
-3,getafe industrial,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_35.aspx
-3,el casar,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_103.aspx
-3,san cristóbal industrial,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_70.aspx
-3,san cristóbal de los ángeles,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_69.aspx
-3,villaverde bajo,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
-3,atocha,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
-3,sol,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
-3,nuevos ministerios,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
-3,chamartín,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
-3,colonia jardín,0,10,/tu-transporte-publico/metro-ligero/estaciones/10_10.aspx
-3,ciudad de la imagen,1,10,/tu-transporte-publico/metro-ligero/estaciones/10_25.aspx
-3,josé isbert,2,10,/tu-transporte-publico/metro-ligero/estaciones/10_26.aspx
-3,ciudad del cine,3,10,/tu-transporte-publico/metro-ligero/estaciones/10_27.aspx
-3,cocheras,4,10,/tu-transporte-publico/metro-ligero/estaciones/10_39.aspx
-3,retamares,5,10,/tu-transporte-publico/metro-ligero/estaciones/10_28.aspx
-3,montepríncipe,6,10,/tu-transporte-publico/metro-ligero/estaciones/10_29.aspx
-3,ventorro del cano,7,10,/tu-transporte-publico/metro-ligero/estaciones/10_30.aspx
-3,prado del espino,8,10,/tu-transporte-publico/metro-ligero/estaciones/10_31.aspx
-3,cantabria,9,10,/tu-transporte-publico/metro-ligero/estaciones/10_32.aspx
-3,ferial de boadilla,10,10,/tu-transporte-publico/metro-ligero/estaciones/10_33.aspx
-3,boadilla centro,11,10,/tu-transporte-publico/metro-ligero/estaciones/10_34.aspx
-3,nuevo mundo,12,10,/tu-transporte-publico/metro-ligero/estaciones/10_35.aspx
-3,siglo xxi,13,10,/tu-transporte-publico/metro-ligero/estaciones/10_36.aspx
-3,infante don luis,14,10,/tu-transporte-publico/metro-ligero/estaciones/10_37.aspx
-3,puerta de boadilla,15,10,/tu-transporte-publico/metro-ligero/estaciones/10_38.aspx
-9,cercedilla,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_16.aspx
-9,puerto de navacerrada,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_63.aspx
-9,cotos,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_23.aspx
-2,colonia jardín,0,10,/tu-transporte-publico/metro-ligero/estaciones/10_10.aspx
-2,prado de la vega,1,10,/tu-transporte-publico/metro-ligero/estaciones/10_11.aspx
-2,colonia de los ángeles,2,10,/tu-transporte-publico/metro-ligero/estaciones/10_12.aspx
-2,prado del rey,3,10,/tu-transporte-publico/metro-ligero/estaciones/10_13.aspx
-2,somosaguas sur,4,10,/tu-transporte-publico/metro-ligero/estaciones/10_14.aspx
-2,somosaguas centro,5,10,/tu-transporte-publico/metro-ligero/estaciones/10_15.aspx
-2,pozuelo oeste,6,10,/tu-transporte-publico/metro-ligero/estaciones/10_16.aspx
-2,bélgica,7,10,/tu-transporte-publico/metro-ligero/estaciones/10_18.aspx
-2,dos castillas,8,10,/tu-transporte-publico/metro-ligero/estaciones/10_19.aspx
-2,campus de somosaguas,9,10,/tu-transporte-publico/metro-ligero/estaciones/10_20.aspx
-2,avenida de europa,10,10,/tu-transporte-publico/metro-ligero/estaciones/10_21.aspx
-2,berna,11,10,/tu-transporte-publico/metro-ligero/estaciones/10_22.aspx
-2,estación de aravaca,12,10,/tu-transporte-publico/metro-ligero/estaciones/10_23.aspx
 4,estrella polar norte (ida),0,10,/tu-transporte-publico/metro-ligero/estaciones/10_64.aspx
 4,estrella polar sur (vuelta),1,10,/tu-transporte-publico/metro-ligero/estaciones/10_65.aspx
 4,jaime i norte (ida),2,10,/tu-transporte-publico/metro-ligero/estaciones/10_66.aspx
@@ -536,3 +364,188 @@ linea,nombre_estacion,orden,tipoTransporte,urlInformacionEstacion
 51,maría tudor,6,10,/tu-transporte-publico/metro-ligero/estaciones/10_7.aspx
 51,palas de rey,7,10,/tu-transporte-publico/metro-ligero/estaciones/10_8.aspx
 51,las tablas,8,10,/tu-transporte-publico/metro-ligero/estaciones/10_9.aspx
+7,alcalá de henares,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_2.aspx
+7,la garena,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_106.aspx
+7,soto del henares,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_143.aspx
+7,torrejón de ardoz,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_81.aspx
+7,san fernando,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_71.aspx
+7,coslada,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_22.aspx
+7,vicálvaro,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_90.aspx
+7,santa eugenia,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_75.aspx
+7,vallecas,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_87.aspx
+7,el pozo,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_59.aspx
+7,asamblea de madrid-entrevías,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_10.aspx
+7,atocha,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+7,recoletos,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
+7,nuevos ministerios,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+7,chamartín,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+7,ramón y cajal,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_64.aspx
+7,mirasierra-paco de lucía,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_145.aspx
+7,pitis,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_58.aspx
+7,las rozas,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_68.aspx
+7,majadahonda,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_42.aspx
+7,el barrial - c.c. pozuelo,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_13.aspx
+7,pozuelo,21,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_60.aspx
+7,aravaca,22,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_9.aspx
+7,príncipe pío,23,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_61.aspx
+2,las rosas,0,4,/tu-transporte-publico/metro/estaciones/4_325.aspx
+2,avenida de guadalajara,1,4,/tu-transporte-publico/metro/estaciones/4_324.aspx
+2,alsacia,2,4,/tu-transporte-publico/metro/estaciones/4_323.aspx
+2,la almudena,3,4,/tu-transporte-publico/metro/estaciones/4_322.aspx
+2,la elipa,4,4,/tu-transporte-publico/metro/estaciones/4_260.aspx
+2,ventas,5,4,/tu-transporte-publico/metro/estaciones/4_28.aspx
+2,manuel becerra,6,4,/tu-transporte-publico/metro/estaciones/4_29.aspx
+2,goya,7,4,/tu-transporte-publico/metro/estaciones/4_30.aspx
+2,príncipe de vergara,8,4,/tu-transporte-publico/metro/estaciones/4_31.aspx
+2,retiro,9,4,/tu-transporte-publico/metro/estaciones/4_32.aspx
+2,banco de españa,10,4,/tu-transporte-publico/metro/estaciones/4_33.aspx
+2,sevilla,11,4,/tu-transporte-publico/metro/estaciones/4_34.aspx
+2,sol,12,4,/tu-transporte-publico/metro/estaciones/4_12.aspx
+2,ópera,13,4,/tu-transporte-publico/metro/estaciones/4_36.aspx
+2,santo domingo,14,4,/tu-transporte-publico/metro/estaciones/4_37.aspx
+2,noviciado,15,4,/tu-transporte-publico/metro/estaciones/4_38.aspx
+2,san bernardo,16,4,/tu-transporte-publico/metro/estaciones/4_39.aspx
+2,quevedo,17,4,/tu-transporte-publico/metro/estaciones/4_40.aspx
+2,canal,18,4,/tu-transporte-publico/metro/estaciones/4_41.aspx
+2,cuatro caminos,19,4,/tu-transporte-publico/metro/estaciones/4_6.aspx
+3,colonia jardín,0,10,/tu-transporte-publico/metro-ligero/estaciones/10_10.aspx
+3,ciudad de la imagen,1,10,/tu-transporte-publico/metro-ligero/estaciones/10_25.aspx
+3,josé isbert,2,10,/tu-transporte-publico/metro-ligero/estaciones/10_26.aspx
+3,ciudad del cine,3,10,/tu-transporte-publico/metro-ligero/estaciones/10_27.aspx
+3,cocheras,4,10,/tu-transporte-publico/metro-ligero/estaciones/10_39.aspx
+3,retamares,5,10,/tu-transporte-publico/metro-ligero/estaciones/10_28.aspx
+3,montepríncipe,6,10,/tu-transporte-publico/metro-ligero/estaciones/10_29.aspx
+3,ventorro del cano,7,10,/tu-transporte-publico/metro-ligero/estaciones/10_30.aspx
+3,prado del espino,8,10,/tu-transporte-publico/metro-ligero/estaciones/10_31.aspx
+3,cantabria,9,10,/tu-transporte-publico/metro-ligero/estaciones/10_32.aspx
+3,ferial de boadilla,10,10,/tu-transporte-publico/metro-ligero/estaciones/10_33.aspx
+3,boadilla centro,11,10,/tu-transporte-publico/metro-ligero/estaciones/10_34.aspx
+3,nuevo mundo,12,10,/tu-transporte-publico/metro-ligero/estaciones/10_35.aspx
+3,siglo xxi,13,10,/tu-transporte-publico/metro-ligero/estaciones/10_36.aspx
+3,infante don luis,14,10,/tu-transporte-publico/metro-ligero/estaciones/10_37.aspx
+3,puerta de boadilla,15,10,/tu-transporte-publico/metro-ligero/estaciones/10_38.aspx
+4b,parla,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_53.aspx
+4b,getafe sector 3,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_36.aspx
+4b,getafe centro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_34.aspx
+4b,las margaritas - universidad,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_43.aspx
+4b,villaverde alto,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_92.aspx
+4b,villaverde bajo,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
+4b,atocha,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+5,móstoles - el soto,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_49.aspx
+5,móstoles,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_48.aspx
+5,las retamas,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_66.aspx
+5,alcorcón,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_5.aspx
+5,san josé de valderas,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_72.aspx
+5,cuatro vientos,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_24.aspx
+5,las águilas,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_1.aspx
+5,fanjul,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_30.aspx
+5,aluche,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_7.aspx
+5,laguna,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_40.aspx
+4b,sol,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
+4b,nuevos ministerios,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+4b,chamartín,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+4b,fuencarral,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_31.aspx
+4b,cantoblanco universidad,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_15.aspx
+4b,el goloso,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_37.aspx
+4b,tres cantos,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_83.aspx
+4b,colmenar viejo,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_21.aspx
+5,embajadores,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_28.aspx
+5,atocha,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+5,méndez álvaro,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_46.aspx
+5,doce de octubre,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_26.aspx
+5,orcasitas,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_52.aspx
+5,puente alcocer,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_62.aspx
+5,villaverde alto,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_92.aspx
+5,zarzaquemada,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_95.aspx
+5,leganés,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_41.aspx
+5,parque polvoranca,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_105.aspx
+5,la serna,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_77.aspx
+5,fuenlabrada,21,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_32.aspx
+5,humanes,22,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_104.aspx
+2,colonia jardín,0,10,/tu-transporte-publico/metro-ligero/estaciones/10_10.aspx
+2,prado de la vega,1,10,/tu-transporte-publico/metro-ligero/estaciones/10_11.aspx
+2,colonia de los ángeles,2,10,/tu-transporte-publico/metro-ligero/estaciones/10_12.aspx
+2,prado del rey,3,10,/tu-transporte-publico/metro-ligero/estaciones/10_13.aspx
+2,somosaguas sur,4,10,/tu-transporte-publico/metro-ligero/estaciones/10_14.aspx
+2,somosaguas centro,5,10,/tu-transporte-publico/metro-ligero/estaciones/10_15.aspx
+2,pozuelo oeste,6,10,/tu-transporte-publico/metro-ligero/estaciones/10_16.aspx
+2,bélgica,7,10,/tu-transporte-publico/metro-ligero/estaciones/10_18.aspx
+2,dos castillas,8,10,/tu-transporte-publico/metro-ligero/estaciones/10_19.aspx
+2,campus de somosaguas,9,10,/tu-transporte-publico/metro-ligero/estaciones/10_20.aspx
+2,avenida de europa,10,10,/tu-transporte-publico/metro-ligero/estaciones/10_21.aspx
+2,berna,11,10,/tu-transporte-publico/metro-ligero/estaciones/10_22.aspx
+2,estación de aravaca,12,10,/tu-transporte-publico/metro-ligero/estaciones/10_23.aspx
+3,aranjuez,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_8.aspx
+3,ciempozuelos,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_19.aspx
+3,valdemoro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_86.aspx
+3,pinto,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_56.aspx
+3,getafe industrial,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_35.aspx
+3,el casar,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_103.aspx
+3,san cristóbal industrial,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_70.aspx
+3,san cristóbal de los ángeles,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_69.aspx
+3,villaverde bajo,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
+3,atocha,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+3,sol,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
+3,nuevos ministerios,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+3,chamartín,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+3a,aranjuez,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_8.aspx
+3a,ciempozuelos,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_19.aspx
+3a,valdemoro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_86.aspx
+3a,pinto,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_56.aspx
+3a,getafe industrial,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_35.aspx
+3a,el casar,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_103.aspx
+3a,san cristóbal industrial,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_70.aspx
+3a,san cristóbal de los ángeles,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_69.aspx
+3a,villaverde bajo,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
+3a,atocha,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+3a,sol,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
+3a,nuevos ministerios,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+3a,chamartín,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+3a,ramón y cajal,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_64.aspx
+3a,mirasierra-paco de lucía,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_145.aspx
+3a,pitis,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_58.aspx
+3a,pinar de las rozas,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_55.aspx
+3a,las matas,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_44.aspx
+3a,torrelodones,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_82.aspx
+3a,galapagar - la navata,19,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_33.aspx
+3a,villalba,20,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_91.aspx
+3a,san yago,21,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_74.aspx
+3a,las zorreras,22,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_96.aspx
+3a,el escorial,23,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_29.aspx
+3a,zarzalejo,24,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_94.aspx
+3a,robledo de chavela,25,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_67.aspx
+3a,santa maría de la alameda,26,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_76.aspx
+2,guadalajara,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_38.aspx
+2,azuqueca,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_12.aspx
+2,meco,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_45.aspx
+2,alcalá de henares universidad,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_3.aspx
+2,alcalá de henares,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_2.aspx
+2,la garena,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_106.aspx
+2,soto del henares,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_143.aspx
+2,torrejón de ardoz,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_81.aspx
+2,san fernando,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_71.aspx
+2,coslada,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_22.aspx
+2,vicálvaro,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_90.aspx
+2,santa eugenia,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_75.aspx
+2,vallecas,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_87.aspx
+2,el pozo,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_59.aspx
+2,asamblea de madrid-entrevías,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_10.aspx
+2,atocha,15,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+2,recoletos,16,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_65.aspx
+2,nuevos ministerios,17,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+4a,parla,0,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_53.aspx
+4a,getafe sector 3,1,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_36.aspx
+4a,getafe centro,2,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_34.aspx
+4a,las margaritas - universidad,3,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_43.aspx
+4a,villaverde alto,4,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_92.aspx
+4a,villaverde bajo,5,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_93.aspx
+4a,atocha,6,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_11.aspx
+4a,sol,7,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_122.aspx
+4a,nuevos ministerios,8,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_51.aspx
+2,chamartín,18,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+4a,chamartín,9,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_18.aspx
+4a,fuencarral,10,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_31.aspx
+4a,cantoblanco universidad,11,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_15.aspx
+4a,universidad p. comillas,12,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_84.aspx
+4a,valdelasfuentes,13,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_85.aspx
+4a,alcobendas - s.s. de los reyes,14,5,/tu-transporte-publico/cercanias-renfe/estaciones/5_4.aspx

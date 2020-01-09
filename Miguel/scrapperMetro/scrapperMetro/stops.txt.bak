@@ -287,19 +287,6 @@ METRO,12,12_24,est_4_233,233,CASA DEL RELOJ,Avda   Gibraltar 11,40.3266,-3.75942
 METRO,12,12_25,est_4_234,234,HOSPITAL SEVERO OCHOA,Avda   Orellana 3,40.32177,-3.76797,B1,http://www.crtm.es,1,,Europe/Madrid,2
 METRO,12,12_26,est_4_235,235,LEGANES CENTRAL,Calle  Virgen del Camino 1,40.32899,-3.77154,B1,http://www.crtm.es,1,,Europe/Madrid,2
 METRO,12,12_27,est_4_236,236,SAN NICASIO,Avda   Mar Mediterráneo SN,40.33616,-3.77587,B1,http://www.crtm.es,1,,Europe/Madrid,2
-METRO,r,r_0,est_4_36,36,OPERA,Plaza de Isabel II 9,40.41809,-3.70942,A,http://www.crtm.es,1,,Europe/Madrid,0
-METRO,r,r_1,est_90_18,18,Intercambiador de Príncipe Pío,Paseo de la Florida 2,40.42107,-3.72037,A,http://www.crtm.es,1,,Europe/Madrid,0
-CR,1,1_0,est_90_18,18,Intercambiador de Príncipe Pío,Paseo de la Florida 2,40.42107,-3.72037,A,http://www.crtm.es,1,,Europe/Madrid,0
-CR,1,1_1,par_5_57,57,PIRAMIDES,,40.4026028948529,-3.71124315951466,A,http://www.crtm.es,0,,Europe/Madrid,1
-CR,1,1_2,par_5_25,25,DELICIAS,,40.400382320912,-3.69267182175509,A,http://www.crtm.es,0,,Europe/Madrid,1
-CR,1,1_3,est_90_13,13,Méndez Álvaro Estación Sur,Calle del Ombu 16,40.39538,-3.67819,A,http://www.crtm.es,1,,Europe/Madrid,0
-CR,1,1_4,est_90_54,54,Atocha-Renfe,Avda de la Ciudad de Barcelona 2 B,40.40659,-3.68944,A,http://www.crtm.es,1,,Europe/Madrid,0
-CR,1,1_5,par_5_65,65,RECOLETOS,,40.4234206237613,-3.69076267999387,A,http://www.crtm.es,0,,Europe/Madrid,0
-CR,1,1_6,est_90_71,71,Nuevos Ministerios,Calle de Raimundo Fernández Villaverde 67,40.44662,-3.69246,A,http://www.crtm.es,1,,Europe/Madrid,0
-CR,1,1_7,est_90_25,25,Chamartín,Calle de Agustín de Foxá 40,40.4721,-3.68269,A,http://www.crtm.es,1,,Europe/Madrid,0
-CR,1,1_8,par_5_133,133,FUENTE DE LA MORA,,40.4847551076476,-3.66273198940419,A,http://www.crtm.es,0,,Europe/Madrid,2
-CR,1,1_9,par_5_144,144,VALDEBEBAS,,40.4823091642411,-3.61634057588727,A,http://www.crtm.es,0,,Europe/Madrid,2
-CR,1,1_10,est_90_33,33,Aeropuerto T4,Ctra de Alcobendas a Barajas SN,40.49176,-3.59356,A,http://www.crtm.es,1,,Europe/Madrid,0
 CR,2,2_0,par_5_38,38,GUADALAJARA,,40.6440936102746,-3.18230377067774,C2,http://www.crtm.es,0,,Europe/Madrid,0
 CR,2,2_1,par_5_12,12,AZUQUECA,,40.5610431126363,-3.26537808007204,C1,http://www.crtm.es,0,,Europe/Madrid,1
 CR,2,2_2,par_5_45,45,MECO,,40.534629296321,-3.29857120296861,C1,http://www.crtm.es,0,,Europe/Madrid,0

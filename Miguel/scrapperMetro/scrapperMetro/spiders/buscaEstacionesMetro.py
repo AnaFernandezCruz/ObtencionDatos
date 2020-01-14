@@ -13,7 +13,11 @@ class BuscaestacionesmetroSpider(scrapy.Spider):
     start_urls = ["https://www.crtm.es/tu-transporte-publico/metro/lineas.aspx",
                   "https://www.crtm.es/tu-transporte-publico/cercanias-renfe/lineas.aspx",
                   "https://www.crtm.es/tu-transporte-publico/metro-ligero/lineas.aspx"
-                  ]
+                 ]
+
+    #start_urls = ["https://www.crtm.es/tu-transporte-publico/"]
+
+   
 
     # start_urls = ["https://www.crtm.es/tu-transporte-publico/metro/lineas/4__1___.aspx",
     # "https://www.crtm.es/tu-transporte-publico/metro/lineas/4__2___.aspx",
@@ -50,7 +54,6 @@ class BuscaestacionesmetroSpider(scrapy.Spider):
      #           '//div[@class="listaBotones logosRectangulo unaCol"]//a/@href'], allow_domains=['https://www.crtm.es/']), 
      #       callback='parse'
     #)
-
 
     def parse(self, response):
         #import pudb; pudb.set_trace()  

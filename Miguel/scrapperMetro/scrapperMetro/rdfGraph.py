@@ -28,6 +28,12 @@ uriEstacionEnlace = uriLocal.estacionEnlace
 uriMedioTransporteAsociado = uriLocal.medioTransporteAsociado #rdf.URIRef(prefijoUris+'medioTransporteAsociado')
 uriLineaEnlace = uriLocal.lineaEnlace
 uriTieneRampa =  manto.hasRamp
+uriStopId =  uriLocal.stopId
+uriStopCode =  uriLocal.stopCode
+uriStopDesc =  uriLocal.stopDesc
+uriZoneId =  uriLocal.zoneId
+uriLocationType =  uriLocal.locationType
+uriStopTimeZone =  uriLocal.stopTimeZone
 uriEstacionPerteneceLinea = manto.ofLine
 uriLat = geoSch.lat
 uriLon = geoSch.lon
@@ -59,8 +65,8 @@ def generaUriLinea(tipoMedioTransporte,nombreLinea):
 def generaUriMedioTransporte(tipoMedioTransporte):
     return rdf.URIRef(mediosTransporte[tipoMedioTransporte])
 
-def generaUriEstacionMetro(tipoMedioTransporte,nombreLinea,nombreEstacion):
-    return rdf.URIRef(prefijoUris+'estaciones/'+tipoMedioTransporte.lower()+'/'+nombreLinea.lower()+'/'+strip_accents_spain(nombreEstacion.lower()))
+def generaUriEstacionMetro(tipoMedioTransporte,nombreLinea,nombreEstacion,idEstacion):
+    return rdf.URIRef(prefijoUris+'estaciones/'+tipoMedioTransporte.lower()+'/'+idEstacion+'/'+strip_accents_spain(nombreEstacion.lower()))
 
 def generaUriEnlace():
     global secuencialIdentificadorEnlaces
@@ -81,32 +87,56 @@ def insertarNuevaLinea(gr,tipoMedioTransporte,nombreLinea):
 def insertarEnlacePrevioSimplificado(gr,filaDatosEstacionActual,filaDatosEstacionAnterior):
     if not filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']+'_s' in enlacesIndexados.keys():
         if filaDatosEstacionActual['line_number'] == filaDatosEstacionAnterior['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionAnterior['transportmean_name']:
-            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name']) , uriTipoEnlaceAnterior, generaUriEstacionMetro(filaDatosEstacionAnterior['transportmean_name'],filaDatosEstacionAnterior['line_number'],filaDatosEstacionAnterior['stop_name'])) )
+            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name'],filaDatosEstacionActual['stop_id']) , uriTipoEnlaceAnterior, generaUriEstacionMetro(filaDatosEstacionAnterior['transportmean_name'],filaDatosEstacionAnterior['line_number'],filaDatosEstacionAnterior['stop_name'],filaDatosEstacionAnterior['stop_id'])) )
             enlacesIndexados[filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']+'_s'] = '1'
-
-
-def insertarEnlaceSiguienteSimplificado(gr,filaDatosEstacionActual,filaDatosEstacionSiguiente):
-    if not filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionSiguiente['stop_id']+'_'+filaDatosEstacionSiguiente['line_number'] in enlacesIndexados.keys():
-        if filaDatosEstacionActual['line_number'] == filaDatosEstacionSiguiente['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionSiguiente['transportmean_name']:
-            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name']) , uriTipoEnlaceSiguiente, generaUriEstacionMetro(filaDatosEstacionSiguiente['transportmean_name'],filaDatosEstacionSiguiente['line_number'],filaDatosEstacionSiguiente['stop_name'])) )
-            enlacesIndexados[filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionSiguiente['stop_id']+'_'+filaDatosEstacionSiguiente['line_number']] = '1'
 
 
 
 #el enlace se crea unicamente cuando tanto la estacion actual como la anterior pertenecen a la misma linea y al mismo medio de tranporte
 def insertarEnlacePrevio(gr,filaDatosEstacionActual,filaDatosEstacionAnterior):
-    if not filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number'] in enlacesIndexados.keys():
+    if not filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']+'_a' in enlacesIndexados.keys():
         if filaDatosEstacionActual['line_number'] == filaDatosEstacionAnterior['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionAnterior['transportmean_name']:
             uriEnlace = generaUriEnlace()
             gr.add ( (uriEnlace, rdfSch.type, uriTipoEnlaceAnterior) )
             gr.add ( (uriEnlace, uriLineaEnlace, generaUriLinea(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionAnterior['line_number'])) )
-            gr.add ( (uriEnlace, uriEstacionEnlace, generaUriEstacionMetro(filaDatosEstacionAnterior['transportmean_name'],filaDatosEstacionAnterior['line_number'],filaDatosEstacionAnterior['stop_name'])) )
-            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name']) , uriTipoEnlaceAnterior, uriEnlace) )
-            enlacesIndexados[filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']] = uriEnlace
+            gr.add ( (uriEnlace, uriEstacionEnlace, generaUriEstacionMetro(filaDatosEstacionAnterior['transportmean_name'],filaDatosEstacionAnterior['line_number'],filaDatosEstacionAnterior['stop_name'],filaDatosEstacionAnterior['stop_id'])) )
+            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name'],filaDatosEstacionActual['stop_id']) , uriTipoEnlaceAnterior, uriEnlace) )
+            enlacesIndexados[filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']+'_a'] = uriEnlace
+    #else:
+    #    if filaDatosEstacionActual['line_number'] == filaDatosEstacionAnterior['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionAnterior['transportmean_name']:
+    #        gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name'],filaDatosEstacionActual['stop_id']) , uriTipoEnlaceAnterior, enlacesIndexados[filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']]) )
+
+
+def insertarEnlaceSiguienteSimplificado(gr,filaDatosEstacionActual,filaDatosEstacionSiguiente):
+    if not filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionSiguiente['stop_id']+'_'+filaDatosEstacionSiguiente['line_number'] in enlacesIndexados.keys():
+        if filaDatosEstacionActual['line_number'] == filaDatosEstacionSiguiente['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionSiguiente['transportmean_name']:
+            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name'],filaDatosEstacionActual['stop_id']) , uriTipoEnlaceSiguiente, generaUriEstacionMetro(filaDatosEstacionSiguiente['transportmean_name'],filaDatosEstacionSiguiente['line_number'],filaDatosEstacionSiguiente['stop_name'],filaDatosEstacionSiguiente['stop_id'])) )
+            enlacesIndexados[filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionSiguiente['stop_id']+'_'+filaDatosEstacionSiguiente['line_number']] = '1'
+
+
+def insertarEnlaceSiguiente(gr,filaDatosEstacionActual,filaDatosEstacionSiguiente):
+    if not filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionSiguiente['stop_id']+'_'+filaDatosEstacionSiguiente['line_number']+'_s' in enlacesIndexados.keys():
+        if filaDatosEstacionActual['line_number'] == filaDatosEstacionSiguiente['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionSiguiente['transportmean_name']:
+            uriEnlace = generaUriEnlace()
+            gr.add ( (uriEnlace, rdfSch.type, uriTipoEnlaceSiguiente) )
+            gr.add ( (uriEnlace, uriLineaEnlace, generaUriLinea(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionSiguiente['line_number'])) )
+            gr.add ( (uriEnlace, uriEstacionEnlace, generaUriEstacionMetro(filaDatosEstacionSiguiente['transportmean_name'],filaDatosEstacionSiguiente['line_number'],filaDatosEstacionSiguiente['stop_name'],filaDatosEstacionSiguiente['stop_id'])) )
+            gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name'],filaDatosEstacionActual['stop_id']) , uriTipoEnlaceSiguiente, uriEnlace) )
+            enlacesIndexados[filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionSiguiente['stop_id']+'_'+filaDatosEstacionSiguiente['line_number']+'_s'] = uriEnlace
+    #else:
+    #    if filaDatosEstacionActual['line_number'] == filaDatosEstacionAnterior['line_number'] and filaDatosEstacionActual['transportmean_name'] == filaDatosEstacionAnterior['transportmean_name']:
+    #        gr.add ( ( generaUriEstacionMetro(filaDatosEstacionActual['transportmean_name'],filaDatosEstacionActual['line_number'],filaDatosEstacionActual['stop_name'],filaDatosEstacionActual['stop_id']) , uriTipoEnlaceAnterior, enlacesIndexados[filaDatosEstacionAnterior['stop_id']+'_'+filaDatosEstacionActual['stop_id']+'_'+filaDatosEstacionActual['line_number']]) )
+
+
+
+def insertarPertenenciaLinea(gr,filaDatosEstacion):
+    uriEstacion = estacionesIndexadas[filaDatosEstacion['transportmean_name']+'_'+filaDatosEstacion['stop_id']]
+    gr.add ( (uriEstacion, uriEstacionPerteneceLinea,generaUriLinea(filaDatosEstacion['transportmean_name'],filaDatosEstacion['line_number'])) )
+
 
 def insertarNuevaEstacion(gr,filaDatosEstacion):
-    if not filaDatosEstacion['stop_id'] in estacionesIndexadas.keys():
-        uriEstacion = generaUriEstacionMetro(filaDatosEstacion['transportmean_name'],filaDatosEstacion['line_number'],filaDatosEstacion['stop_name'])
+    if not filaDatosEstacion['transportmean_name']+'_'+filaDatosEstacion['stop_id'] in estacionesIndexadas.keys():
+        uriEstacion = generaUriEstacionMetro(filaDatosEstacion['transportmean_name'],filaDatosEstacion['line_number'],filaDatosEstacion['stop_name'],filaDatosEstacion['stop_id'])
         gr.add ( (uriEstacion, rdfSch.type, uriTipoEstacion) )
         gr.add ( (uriEstacion, rdfsSch.label, rdf.Literal(filaDatosEstacion['stop_name'].lower())))
         gr.add ( (uriEstacion, uriEstacionPerteneceLinea,generaUriLinea(filaDatosEstacion['transportmean_name'],filaDatosEstacion['line_number'])) )        
@@ -115,13 +145,29 @@ def insertarNuevaEstacion(gr,filaDatosEstacion):
                 gr.add ( (uriEstacion, uriTieneRampa,  rdf.Literal('True')) )
             else:
                 gr.add ( (uriEstacion, uriTieneRampa, rdf.Literal('False')))
-        gr.add ( (uriEstacion, geoSch.lat,  rdf.Literal(filaDatosEstacion['stop_lat'])) )
-        gr.add ( (uriEstacion, geoSch.lat, rdf. Literal(filaDatosEstacion['stop_lon'])) )
-        estacionesIndexadas[filaDatosEstacion['stop_id']]=uriEstacion
+        else:
+            gr.add ( (uriEstacion, uriTieneRampa, rdf.Literal('False')))   
+        if 'stop_lat' in filaDatosEstacion:    
+            gr.add ( (uriEstacion, geoSch.lat,  rdf.Literal(filaDatosEstacion['stop_lat'])) )
+            gr.add ( (uriEstacion, geoSch.lon, rdf. Literal(filaDatosEstacion['stop_lon'])) )
+          
+        gr.add ( (uriEstacion, uriStopId,  rdf.Literal(filaDatosEstacion['stop_id'])) )  
+        if 'stop_code' in filaDatosEstacion:    
+            gr.add ( (uriEstacion, uriStopCode,  rdf.Literal(filaDatosEstacion['stop_code'])) )  
+        if 'stop_desc' in filaDatosEstacion:    
+            gr.add ( (uriEstacion, uriStopDesc,  rdf.Literal(filaDatosEstacion['stop_desc'])) )  
+        if 'zone_id' in filaDatosEstacion:    
+            gr.add ( (uriEstacion, uriZoneId,  rdf.Literal(filaDatosEstacion['zone_id'])) )   
+        if 'location_type' in filaDatosEstacion:    
+            gr.add ( (uriEstacion, uriLocationType,  rdf.Literal(filaDatosEstacion['location_type'])) )   
+        if 'stop_timezone' in filaDatosEstacion:    
+            gr.add ( (uriEstacion, uriStopTimeZone,  rdf.Literal(filaDatosEstacion['stop_timezone'])) )         
+        estacionesIndexadas[filaDatosEstacion['transportmean_name']+'_'+filaDatosEstacion['stop_id']]=uriEstacion
     else:
         #el registro ya existe, insertamos la nueva linea a la que pertenece
-        uriEstacion = estacionesIndexadas[filaDatosEstacion['stop_id']]
-        gr.add ( (uriEstacion, uriEstacionPerteneceLinea,generaUriLinea(filaDatosEstacion['transportmean_name'],filaDatosEstacion['line_number'])) )
+        #uriEstacion = estacionesIndexadas[filaDatosEstacion['stop_id']]
+        #gr.add ( (uriEstacion, uriEstacionPerteneceLinea,generaUriLinea(filaDatosEstacion['transportmean_name'],filaDatosEstacion['line_number'])) )
+        insertarPertenenciaLinea(gr,filaDatosEstacion)
 
 # transportmean_name,line_number,order_number,stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
 with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/stops.txt',newline='') as stopsfile:
@@ -135,15 +181,23 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
             lineasFicheroIndexadasClave[row['stop_id']] = row
             #uritipoLinea = rdf.URIRef(mediosTransporte[medioTransporte])
             insertarNuevaLinea(g,row['transportmean_name'],row['line_number'])
-            insertarNuevaEstacion(g,row)
+            if not row['transportmean_name']+'_'+row['stop_id'] in estacionesIndexadas.keys():
+                insertarNuevaEstacion(g,row)
+            else:
+                insertarPertenenciaLinea(g,row)   
+
             lineaAnterior = row
             tipoMedioTransporteAnterior = row['transportmean_name']            
         else:           
             if not row['transportmean_name']+'_'+row['line_number'] in lineasIndexadas.keys():
                 insertarNuevaLinea(g,row['transportmean_name'],row['line_number'])
-            if not row['stop_id'] in estacionesIndexadas.keys():                
+           
+            if not row['transportmean_name']+'_'+row['stop_id'] in estacionesIndexadas.keys():                
                 insertarNuevaEstacion(g,row)
                 lineasFicheroIndexadasClave[row['stop_id']] = row
+            else:
+                insertarPertenenciaLinea(g,row)
+
             if tipoExportacionEnlaces == 0:
                 insertarEnlacePrevioSimplificado(g,row,lineaAnterior)
             else:
@@ -152,8 +206,8 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
             if tipoExportacionEnlaces == 0:
                 insertarEnlaceSiguienteSimplificado(g,lineaAnterior,row)
             else:
-                #insertarEnlacePrevio(g,row,lineaAnterior)  
-                pass
+                insertarEnlaceSiguiente(g,row,lineaAnterior)  
+               
 
             lineaAnterior = row 
             tipoMedioTransporteAnterior = row['transportmean_name'] 

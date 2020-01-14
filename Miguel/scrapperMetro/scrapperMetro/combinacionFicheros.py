@@ -50,10 +50,16 @@ def filterStationsMetroLigero(row):
 def strip_accents_spain(string, accents=('COMBINING ACUTE ACCENT', 'COMBINING GRAVE ACCENT')):
     accents = set(map(unicodedata.lookup, accents))
     chars = [c for c in unicodedata.normalize('NFD', string) if c not in accents]
-    return unicodedata.normalize('NFC', ''.join(chars))
+    retorno = unicodedata.normalize('NFC', ''.join(chars))
+    retorno = retorno.replace(' - ',' ')
+    return retorno
 
 # estructuras de datos auxiliares para acelerar el proceso de generacion del fichero definitivo de estaciones
 # este diccionario guarda como clave los nombres normalizados y como valor una lista de valores  stop_id para esa clave
+# notar que frente a una posible colision de nombres (es decir, dos registros con el mismo nombre de estacion)
+# el diccionario solo almacena una, la ultima leida. No obstante, debido a que a la hora de cargar este fichero solo hemos leido las
+# estaciones y no las paradas (registros con parent_station null o que comienzan con 'est_' en su nombre), esta colision no se da
+# y garantizamos que para el mismo nombre de estacion siempre se nos da el mismo 'stop_id'
 diccionario_nombres_estaciones_inverso_metro = {}
 # este diccionario guarda como clave stop_id y como valor toda la informacion asociada a la estacion proveniente del fichero stops.txt
 diccionario_claves_metro = {}
@@ -99,6 +105,10 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
 
 # estructuras de datos auxiliares para acelerar el proceso de generacion del fichero definitivo de estaciones
 # este diccionario guarda como clave los nombres normalizados y como valor una lista de valores  stop_id para esa clave
+# notar que frente a una posible colision de nombres (es decir, dos registros con el mismo nombre de estacion)
+# el diccionario solo almacena una, la ultima leida. No obstante, debido a que a la hora de cargar este fichero solo hemos leido las
+# estaciones y no las paradas (registros con parent_station null o que comienzan con 'est_' en su nombre), esta colision no se da
+# y garantizamos que para el mismo nombre de estacion siempre se nos da el mismo 'stop_id'
 diccionario_nombres_estaciones_inverso_cercanias = {}
 # este diccionario guarda como clave stop_id y como valor toda la informacion asociada a la estacion proveniente del fichero stops.txt
 diccionario_claves_cercanias = {}
@@ -136,6 +146,10 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
 
 # estructuras de datos auxiliares para acelerar el proceso de generacion del fichero definitivo de estaciones
 # este diccionario guarda como clave los nombres normalizados y como valor una lista de valores  stop_id para esa clave
+# notar que frente a una posible colision de nombres (es decir, dos registros con el mismo nombre de estacion)
+# el diccionario solo almacena una, la ultima leida. Todas las posibles claves con el mismo nombre se almacenan en una lista asociada
+# a esa clave, y a la hora de elegir una de las posibles claves asociadas a un nombre, siempre nos quedamos con el primer elemento
+# que aparece en la lista
 diccionario_nombres_estaciones_inverso_metro_ligero = {}
 # este diccionario guarda como clave stop_id y como valor toda la informacion asociada a la estacion proveniente del fichero stops.txt
 diccionario_claves_metro_ligero = {}
@@ -171,7 +185,7 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
 #print("numeroElementosFaltantes: "+str(len(listaElementosFaltates)))
 
 # una vez leidos e indexados los tres ficheros stops.txt, procederemos a general el fichero stops.txt de la practica mezclando los 3 ficheros stops
-# con el fichero de paradas obtenido por el scrapper
+# con el fichero de paradas obtenido por el scrapper. En primer lugar abrimos el fichero para escrutura
 with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/stops.txt', mode='w') as fichero_salida:
     writer_fichero_salida = csv.writer(fichero_salida, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer_fichero_salida.writerow(['transportmean_name', 'line_number', 'order_number','stop_id','stop_code','stop_name','stop_desc','stop_lat','stop_lon','zone_id','stop_url','location_type','parent_station','stop_timezone','wheelchair_boarding'])
@@ -187,6 +201,8 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
             # y como valor el 'stop_id' correspondiente
             if(estacionesTransporte['nombre_estacion'] in diccionario_nombres_estaciones_inverso_metro):
                 # si nos encontramos el nombre directamente en el diccionario, obtenemos su fila asociada
+                # seguimos haciendo notar que el diccionario diccionario_nombres_estaciones_inverso_metro solo almacena un unico stop_id
+                # por nombre, con lo que para un nombre de estacion en particular siempre se seleccionara el mismo registro
                 print('estacion metro encontrada '+estacionesTransporte['nombre_estacion'])
                 filaRegistro = diccionario_claves_metro[diccionario_nombres_estaciones_inverso_metro[estacionesTransporte['nombre_estacion']][0]]
                 print('fila metro encontada '+diccionario_claves_metro[diccionario_nombres_estaciones_inverso_metro[estacionesTransporte['nombre_estacion']][0]]['stop_name'])
@@ -199,15 +215,26 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
                     # el nombre de la estacion coincidente y la similitud, para luego elegir aquel que tenga mayor similitud como estacion asociada
                     elementosProbables = {}
                     for nombresEstaciones in diccionario_nombres_estaciones_inverso_metro.keys():
-                        partial_ratio = fuzz.partial_ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones)
+                        partial_ratio = fuzz.ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones)
                         if(partial_ratio > 85):
                             elementosProbables[nombresEstaciones] = partial_ratio
+                        else:
+                            partial_ratio = fuzz.token_sort_ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones) 
+                            if(partial_ratio > 85):
+                                # penalizamos ligeramente el peso de esta busqueda
+                                elementosProbables[nombresEstaciones] = partial_ratio*0.9
+                            else:
+                                partial_ratio = fuzz.partial_ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones) 
+                                if(partial_ratio > 85):
+                                    # penalizamos todavia mas el peso de esta busqueda
+                                    elementosProbables[nombresEstaciones] = partial_ratio*0.8
                     # vemos si la busqueda por todas las estacionnes ha dado positivo. Nos quedamos con el elemento
                     # que tiene la máxima verosimilitud
                     if len(elementosProbables) > 0:
                         maximo_peso_comprobacion = 0
                         #for elementoProbable in elementosProbables:
-                        #    print('elemento probable encontrado para  '+estacionesTransporte['nombre_estacion']+' denominado '+elementoProbable)  
+                        #    print('elemento probable encontrado para  '+estacionesTransporte['nombre_estacion']+' denominado '+elementoProbable) 
+                        # obtenemos el elemento con mas peso como candidato para representar a la estación obtenida por el scrapper 
                         keyMax = max(elementosProbables.keys(), key=(lambda k: elementosProbables[k]))
                         print('Elemento seleccionado metro '+keyMax+ ' para '+estacionesTransporte['nombre_estacion'])
                         # si la busqueda del maximo ha dado un unico registor, obtenemos la fila asociada a la estacion para grabarla
@@ -235,13 +262,17 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
                     #print('estacion no encontrada '+estacionesTransporte['nombre_estacion'])  
                     elementosProbables = {}
                     for nombresEstaciones in diccionario_nombres_estaciones_inverso_cercanias.keys():
-                        partial_ratio = fuzz.partial_ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones)
+                        partial_ratio = fuzz.ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones)
                         if(partial_ratio > 85):
                             elementosProbables[nombresEstaciones] = partial_ratio
                         else:
                             partial_ratio = fuzz.token_sort_ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones) 
                             if(partial_ratio > 85):
-                                elementosProbables[nombresEstaciones] = partial_ratio
+                                elementosProbables[nombresEstaciones] = partial_ratio*0.9
+                            else:
+                                partial_ratio = fuzz.partial_ratio(strip_accents_spain(estacionesTransporte['nombre_estacion']),nombresEstaciones) 
+                                if(partial_ratio > 85):
+                                    elementosProbables[nombresEstaciones] = partial_ratio*0.8
                     if len(elementosProbables) > 0:
                         maximo_peso_comprobacion = 0
                         #for elementoProbable in elementosProbables:
@@ -290,7 +321,7 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
                         else:
                             print('mas de una fila para metro ligero intento obtener la estacion')
                             # en caso de encontrarnos un registro que sea parada y estacion con la misma similitud, elegimos la estacion
-                            # frente a la parada
+                            # frente a la parada (asi, dado un nombre de estacion que tiene varias paradas devolvemos siempre el mismo identificador)
                             for estacionesCandidatas in diccionario_nombres_estaciones_inverso_metro_ligero[keyMax]:
                                 if estacionesCandidatas.startswith('est'):
                                     filaRegistro = diccionario_claves_metro_ligero[estacionesCandidatas]

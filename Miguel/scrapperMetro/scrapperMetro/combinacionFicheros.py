@@ -15,7 +15,7 @@ def natural_keys(text):
 # leemos el fichero agregado tanto de metro como de las lineas de metro ligero y cercanias
 # leemos el fichero obtenido por el scrapper ordenado por los campos tipoTransporte,linea,orden
 # pese a que el nombre del fichero se denomina estacionesMetro.csv, este fichero tiene todas las lineas para metro, metro ligero y cercanias
-with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/estacionesMetro.csv',newline='') as csvfile:
+with open('./estacionesMetro.csv',newline='') as csvfile:
     lineas = csv.DictReader(csvfile, delimiter=",")
     sortedLineas= sorted(lineas, key=lambda row:(int(row['tipoTransporte']),natural_keys(row['linea']),int(row['orden'])), reverse=False)
 
@@ -71,7 +71,7 @@ diccionario_claves_padre_metro = {}
 listaElementosFaltates = list()
 
 # leemos el fichero stops.txt de metro original
-with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/ficherosMetro/stops.txt',newline='',encoding="utf-8-sig") as csvfileStopMetro:
+with open('./ficherosMetro/stops.txt',newline='',encoding="utf-8-sig") as csvfileStopMetro:
     estacionesStopMetro = csv.DictReader(csvfileStopMetro, delimiter=",")
     #lineasStopMetro = filter(filterStations,estacionesStopMetro)
     for row in estacionesStopMetro:
@@ -117,7 +117,7 @@ diccionario_claves_cercanias = {}
 diccionario_claves_padre_cercanias = {}
 
 # repetimos la lectura del fichero stops.txt con el mismo algoritmo que el comentado aarriba para los ficheros de cercanias
-with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/ficherosCercanias/stops.txt',newline='',encoding="utf-8-sig") as csvfileStopCercanias:
+with open('./ficherosCercanias/stops.txt',newline='',encoding="utf-8-sig") as csvfileStopCercanias:
     estacionesStopCercanias = csv.DictReader(csvfileStopCercanias, delimiter=",")
     #lineasStopMetro = filter(filterStations,estacionesStopMetro)
     for row in estacionesStopCercanias:
@@ -158,7 +158,7 @@ diccionario_claves_metro_ligero = {}
 diccionario_claves_padre_metro_ligero = {}
 
 # repetimos la lectura del fichero stops.txt con el mismo algoritmo que el comentado arriba para los ficheros de metro ligero
-with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/ficherosMetroLigero/stops.txt',newline='',encoding="utf-8-sig") as csvfileStopMetroLigero:
+with open('./ficherosMetroLigero/stops.txt',newline='',encoding="utf-8-sig") as csvfileStopMetroLigero:
     estacionesStopMetroLigero = csv.DictReader(csvfileStopMetroLigero, delimiter=",")
     #lineasStopMetro = filter(filterStations,estacionesStopMetro)
     for row in estacionesStopMetroLigero:
@@ -186,7 +186,7 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
 
 # una vez leidos e indexados los tres ficheros stops.txt, procederemos a general el fichero stops.txt de la practica mezclando los 3 ficheros stops
 # con el fichero de paradas obtenido por el scrapper. En primer lugar abrimos el fichero para escrutura
-with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObtencionDatos/scrapperMetro/scrapperMetro/stops.txt', mode='w') as fichero_salida:
+with open('./stops.txt', mode='x') as fichero_salida:
     writer_fichero_salida = csv.writer(fichero_salida, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer_fichero_salida.writerow(['transportmean_name', 'line_number', 'order_number','stop_id','stop_code','stop_name','stop_desc','stop_lat','stop_lon','zone_id','stop_url','location_type','parent_station','stop_timezone','wheelchair_boarding'])
     # leemos el fichero obtenido del scrapper ordenado por medio de transporte, linea y posicion
@@ -342,6 +342,8 @@ with open('/mnt/c/Users/msalc/Qsync/docmaster/curso/programacion01/practicaObten
             writer_fichero_salida.writerow([tipoTransporte, estacionesTransporte['linea'],estacionesTransporte['linea']+'_'+estacionesTransporte['orden'] ,filaRegistro['stop_id'],filaRegistro['stop_code'],filaRegistro['stop_name'],filaRegistro['stop_desc'],filaRegistro['stop_lat'],filaRegistro['stop_lon'],filaRegistro['zone_id'],filaRegistro['stop_url'],filaRegistro['location_type'],filaRegistro['parent_station'],filaRegistro['stop_timezone'],filaRegistro['wheelchair_boarding']])
         else:
             print('error escribiendo fichero')    
+
+
 
 
 
